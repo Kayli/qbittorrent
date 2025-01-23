@@ -7,7 +7,7 @@ services:
       - WEBUI_PORT=8080
       - WEBUI_LOCALHOST_AUTH=false
     volumes:
-      - /Users/illiam/projects/qbittorrent/downloads:/downloads
+      - ./downloads:/downloads
       - ./config:/config
       - ./ensure_config.sh:/custom-cont-init.d/10-qbittorrent-config.sh # Ensure auth disabled in config
     ports:
