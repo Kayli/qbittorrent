@@ -30,3 +30,7 @@ logs/
 
 # qBittorrent
 config/
+downloads/
+
+# macOS system files
+.DS_Store
